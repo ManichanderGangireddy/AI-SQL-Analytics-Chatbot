@@ -139,17 +139,6 @@ Example:
 ![Chatbot Demo](chatbot_demo.png)
 ```
 
----
-
-## Resume Description
-
-Developed an AI-powered enterprise SQL analytics chatbot using Python, LangChain, Gemini AI, SQLite, and Streamlit.
-
-Implemented natural language to SQL query conversion for business analytics and reporting.
-
-Built a semantic-layer-based AI assistant capable of generating intelligent database insights.
-
----
 
 ## GitHub Repository
 
@@ -160,4 +149,4 @@ https://github.com/ManichanderGangireddy/AI-SQL-Analytics-Chatbot
 
 ## Author
 
-Manichander Reddy
+Manichander Gangireddy
