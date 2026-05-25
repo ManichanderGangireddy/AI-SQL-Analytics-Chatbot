@@ -27,7 +27,7 @@ api_key = st.text_input(
 if api_key:
 
     # Set API key
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyDscEpoc1JTTWpL8nPwD4oX_3okJHGM-UQ"
+    os.environ["GOOGLE_API_KEY"] = "Your API Key"
     #" YOUR_API_KEY"
 
     try:
