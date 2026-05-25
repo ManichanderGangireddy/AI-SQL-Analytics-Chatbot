@@ -27,7 +27,8 @@ api_key = st.text_input(
 if api_key:
 
     # Set API key
-    os.environ["GOOGLE_API_KEY"] = " YOUR_API_KEY"
+    os.environ["GOOGLE_API_KEY"] = "AIzaSyDscEpoc1JTTWpL8nPwD4oX_3okJHGM-UQ"
+    #" YOUR_API_KEY"
 
     try:
 
@@ -96,21 +97,15 @@ if api_key:
 
             with st.spinner("Thinking..."):
 
-                response = agent_executor.invoke(
-                    {"input": question}
-                )
-
-                st.subheader("🤖 AI Response")
-
-                output = response["output"]
-                # If response is list/dictionary
-                if isinstance(output, list):
-                    try:
+               response = agent_executor.invoke({"input": question})
+               st.subheader("🤖 AI Response")
+               output = response["output"]
+               if isinstance(output, list):
+                try:
                         clean_text = output[0]["text"]
                         st.write(clean_text)
-
-                    except:
-                         st.write(output)
+                except:
+                    st.write(output)
 
                 else:
                     st.write(output)
