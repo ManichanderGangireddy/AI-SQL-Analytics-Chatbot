@@ -130,15 +130,17 @@ Business Insight Response
 ---
 
 ## Project Demo
+<img width="1920" height="1080" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/6c3d8711-3b5d-483f-bbc4-5e4f6fb37a11" />
 
-(Add chatbot screenshot here later)
+<img width="1920" height="1080" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/89c04b89-c112-44e7-bb33-0a34aa43a0d9" />
+
+<img width="1536" height="1024" alt="screenshot3" src="https://github.com/user-attachments/assets/a61cfc96-550e-4e9c-b014-8789c6e4d2c1" />
 
 Example:
 
 ```markdown
 ![Chatbot Demo](chatbot_demo.png)
 ```
-
 
 ## GitHub Repository
 
